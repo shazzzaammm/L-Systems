@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #393939;
+}
+
+canvas {
+  display: block;
+}
+
+.user-interface {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: #808080;
+  border-radius: 8px;
+  padding: 12px;
+  gap: 4px;
+}
+
+.tree-index {
+  outline: 1px #393939 solid;
+  padding: 1px 6px;
+  max-height: 40px;
+  border-radius: 2px;
+  font-size: 2em;
+}
+
+.new-button {
+  border-radius: 8px;
+  border: none;
+  font-size: 2em;
+}
+
+.tree-index-button {
+  border: none;
+  border-radius: 2px;
+  font-size: 1.1em;
+}
+
+.tree-index-menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tree-index-buttons {
+  display: flex;
+  flex-direction: column;
+}
